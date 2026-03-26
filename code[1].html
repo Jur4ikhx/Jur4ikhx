@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Living Archive - История Гимназии</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-error-container": "#93000a",
+              "secondary": "#775a19",
+              "on-primary": "#ffffff",
+              "background": "#fcf9f3",
+              "on-secondary-fixed-variant": "#5d4201",
+              "on-secondary-container": "#785a1a",
+              "surface-container-low": "#f6f3ed",
+              "error": "#ba1a1a",
+              "tertiary": "#150c00",
+              "on-primary-fixed": "#001b3d",
+              "on-secondary-fixed": "#261900",
+              "primary-fixed": "#d6e3ff",
+              "on-primary-container": "#718bb9",
+              "tertiary-fixed-dim": "#e1c28f",
+              "primary-container": "#00234b",
+              "inverse-surface": "#31312d",
+              "on-secondary": "#ffffff",
+              "on-error": "#ffffff",
+              "error-container": "#ffdad6",
+              "surface-bright": "#fcf9f3",
+              "primary": "#000e24",
+              "on-tertiary": "#ffffff",
+              "on-primary-fixed-variant": "#2c4771",
+              "outline-variant": "#c4c6d0",
+              "on-tertiary-container": "#a18759",
+              "secondary-container": "#fed488",
+              "outline": "#74777f",
+              "on-tertiary-fixed-variant": "#58431c",
+              "surface-dim": "#dcdad4",
+              "primary-fixed-dim": "#adc7f8",
+              "surface-container-high": "#ebe8e2",
+              "surface": "#fcf9f3",
+              "inverse-primary": "#adc7f8",
+              "secondary-fixed": "#ffdea5",
+              "surface-container-highest": "#e5e2dc",
+              "inverse-on-surface": "#f3f0ea",
+              "surface-variant": "#e5e2dc",
+              "surface-tint": "#455f8a",
+              "surface-container": "#f0eee8",
+              "on-surface": "#1c1c18",
+              "tertiary-container": "#312000",
+              "secondary-fixed-dim": "#e9c176",
+              "on-surface-variant": "#43474e",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#271900",
+              "tertiary-fixed": "#fedea9",
+              "on-background": "#1c1c18"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-header {
+            background: rgba(252, 249, 243, 0.85);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 right-0 z-50 glass-header">
+<nav class="flex justify-between items-center px-12 py-6 w-full max-w-screen-2xl mx-auto">
+<div class="text-2xl font-headline text-primary dark:text-[#e5e2dc] tracking-tight font-bold">
+                The Living Archive
+            </div>
+<div class="hidden md:flex gap-8 font-headline font-medium text-sm tracking-wide">
+<a class="text-[#1c1c18]/70 hover:text-[#00234B] transition-colors" href="#">Tours</a>
+<a class="text-[#1c1c18]/70 hover:text-[#00234B] transition-colors" href="#">Archive</a>
+<a class="text-[#1c1c18]/70 hover:text-[#00234B] transition-colors" href="#">Alumni</a>
+<a class="text-[#1c1c18]/70 hover:text-[#00234B] transition-colors" href="#">Schedule</a>
+<a class="text-[#1c1c18]/70 hover:text-[#00234B] transition-colors" href="#">About</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-[#e5e2dc]/30 transition-all rounded-full">
+<span class="material-symbols-outlined text-primary">search</span>
+</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover filter grayscale brightness-50 contrast-125" data-alt="Monochrome vintage wide shot of a neoclassical grand school building with stone columns and tall windows under a dramatic overcast sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDstgSmA9asGnn1TaesKVo0nnIlp_Qigbto1IFctZZITHPjrmYoAZC60iDuxAfyZme8MLOCFVqFWg0GAPb8dzUqQwXUclpH5dS6SrglXy5MXsJwrBtXuekd5zTgOZvWfmQ-pt-zrevXNEa5S_3rHEVW1xqu7oPPzcEeNyx6_6tcHjmUvunX_xxMcd5vQTFpRDXGUG-srZaoLmRGuETe7krHwU4v9JWAHZimPdjNPkUUstTpuCUxKRMn4mhQ8xnDq2Y_c5T7Bwe-o-Y"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
+</div>
+<div class="relative z-10 w-full max-w-screen-2xl mx-auto px-12">
+<div class="max-w-3xl">
+<div class="flex items-center gap-3 mb-6">
+<div class="h-[1px] w-12 bg-secondary"></div>
+<span class="font-label text-secondary uppercase tracking-[0.3em] text-xs font-bold">Основано в 1905 году</span>
+</div>
+<h1 class="font-headline text-5xl md:text-7xl text-white mb-8 leading-[1.1] font-bold">
+                        История Гимназии:<br/>
+<span class="italic font-medium text-surface-container-high">Наследие и Современность</span>
+</h1>
+<p class="text-surface-container-high/80 text-lg mb-12 max-w-xl font-light leading-relaxed">
+                        Погрузитесь в вековую хронику достижений, традиций и судеб, сформировавших облик современного образования. От первых классов до инновационных лабораторий.
+                    </p>
+<button class="bg-primary text-white px-8 py-4 font-label uppercase tracking-widest text-sm hover:bg-primary-container transition-all flex items-center gap-3 shadow-[0px_12px_32px_rgba(28,28,24,0.06)]">
+                        Начать экскурсию
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Info & Schedule: The "Placard" Effect -->
+<section class="py-24 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+<div class="lg:col-span-4 space-y-12">
+<div>
+<span class="font-label text-secondary uppercase tracking-widest text-xs font-bold mb-4 block">Визит в музей</span>
+<h2 class="font-headline text-3xl text-primary mb-6">График работы</h2>
+<div class="space-y-4 border-l border-primary/10 pl-6">
+<div class="flex justify-between items-center py-2">
+<span class="font-body text-on-surface/60">Пн — Пт</span>
+<span class="font-headline text-primary font-medium italic">09:00 – 17:00</span>
+</div>
+<div class="flex justify-between items-center py-2">
+<span class="font-body text-on-surface/60">Суббота</span>
+<span class="font-headline text-primary font-medium italic">10:00 – 14:00</span>
+</div>
+<div class="flex justify-between items-center py-2">
+<span class="font-body text-on-surface/60">Воскресенье</span>
+<span class="font-headline text-secondary font-medium italic">Выходной</span>
+</div>
+</div>
+</div>
+<div class="p-8 bg-surface-container-low border-b-2 border-primary">
+<h3 class="font-headline text-xl text-primary mb-4">Запись на экскурсию</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+                                Групповые посещения проводятся по предварительному согласованию для сохранения академической атмосферы.
+                            </p>
+<a class="font-headline text-primary text-lg block hover:text-secondary transition-colors underline underline-offset-8 decoration-1" href="tel:+70000000000">
+                                +7 (495) 123-45-67
+                            </a>
+</div>
+</div>
+<div class="lg:col-span-8">
+<span class="font-label text-secondary uppercase tracking-widest text-xs font-bold mb-4 block">Текущие выставки</span>
+<div class="space-y-12">
+<div class="group cursor-pointer">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+<div class="md:col-span-2 overflow-hidden h-64">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Stack of ancient leather-bound books and inkwells on an old wooden table with dust motes in sunbeams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_GioE3kDxe88dxHooB_cab2Csfuwv6QxS2GR2djM_axTBwWNjKcNVVWvlj9577gUAJFcoKCeFKKCwGSPN4PPdps4kkvmtOrrcST6uvPg3-POjTj_Lf1dN8Ka7WJaUTPU4PCsAQ1boVS-ic5adv3Po3ezXXthwV5izJoeftN1MHE1R4rO7CZLH6Zd8q0PZdF9yKJFeg_Nbl5x_TxxY4cJFJZotvNWg6M67s5dm05vsWS35molQlJV6ltKi9PxN0Zjk9LJBTWGq15M"/>
+</div>
+<div class="md:col-span-3 py-4 flex flex-col justify-center">
+<h3 class="font-headline text-2xl text-primary mb-4">Золотой век гимназии (1905-1917)</h3>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                                            Уникальное собрание личных дневников первых преподавателей, оригинальных чертежей здания и дореволюционных учебных пособий.
+                                        </p>
+<div class="flex items-center gap-4 text-xs font-label tracking-widest uppercase text-secondary">
+<span>Зал №1</span>
+<span>•</span>
+<span>До 15 мая</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+<div class="md:col-span-2 overflow-hidden h-64">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A vintage typewriter and a pair of spectacles on top of a stack of sepia-toned letters and maps" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgkP0XC7dOf70_79dAKmoe6HZFH5Ygupc7-3MvHhBGZBpiYNkUD20olQmX03W50upYCDrFVy2tKhfgLslCUxi8hgAx2LloppPpckD4jj9-HlCCzuNL6cQD-pnBdw6qaFWXK3WXuc528IWRiyhUhS_tkFF_WeB6-dWQxYnuvLJwqnIoryv2V084v1_8G_UWsCA5GeQzV_QHJpe1novykTcfmvqnD7vbgJf-pkXZA6kM4UB4Zu1BHQCdbeZ7cG3iGT-gLy81pWcUEgM"/>
+</div>
+<div class="md:col-span-3 py-4 flex flex-col justify-center">
+<h3 class="font-headline text-2xl text-primary mb-4">Эпоха Просвещения: Послевоенные годы</h3>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                                            Экспозиция, посвященная восстановлению академических стандартов и выдающимся открытиям учеников в середине XX века.
+                                        </p>
+<div class="flex items-center gap-4 text-xs font-label tracking-widest uppercase text-secondary">
+<span>Зал №4</span>
+<span>•</span>
+<span>Постоянная</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Archive Gallery Section: Asymmetric Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="text-center mb-20">
+<span class="font-label text-secondary uppercase tracking-widest text-xs font-bold mb-4 block">Фотоархив</span>
+<h2 class="font-headline text-4xl text-primary italic">Мгновения Истории</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-[1000px] md:h-[700px]">
+<div class="md:col-span-4 h-full relative overflow-hidden group">
+<img class="w-full h-full object-cover transition-all duration-1000 group-hover:scale-110 grayscale hover:grayscale-0" data-alt="Sepia toned photograph of a classroom with students in formal attire sitting at wooden desks in the early 20th century" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAgzoRqAgGeaF60oTm8duUl2IeVsJFgHDkLZxTFNcIrVtt4QT9NCk_4d25QbA9qUIVlATRzl-COW8u-UgPxra_z2Ac1P_bIPKZYYFDIK9A9CZuewlKDUOpEQQ0QNgBEsG1ITKUwSS3RofM1DKOjLYRYxlXNqy5HLskzbYvgO6aEFRNJvhxqEatC2Ob4PiIOc1l1tJ3I4WrbjAQxjaJwQ5hBIAoGCoURYX5iLmiOv5eywOstLtArQsf4pL0YtEW3UbuvKC0WS5oLy8"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<span class="text-white font-headline italic">Урок физики, 1924 г.</span>
+</div>
+</div>
+<div class="md:col-span-8 grid grid-rows-2 gap-6">
+<div class="grid grid-cols-2 gap-6">
+<div class="relative overflow-hidden group">
+<img class="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-110" data-alt="Black and white close up of a dusty library shelf with old leather books and scrolls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDT3YT-naYm_SqFPnbevCRcsekOJAyh8lm4DPuCeZiGCLVKdguz2pYHpvszEUZUaLoy9z2gt69ELKRm8LZxeSJMSwqxtHua30lvIgrgNv6B5Jo6lUXceaq3wx5ti5yW0E4ZFHnm3INZRyFVpQPXnMixjmGeaskFYWoTyWC5ZJlc1YLjY2hxa-4xqG9ckf9bO0LM-LjJAp-UNWdliDQ5m6a5M2-aDWL466s79qvFcNdlNBj0220ACCCtCAquGg-B3Lq7iyqLapZpE1o"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<span class="text-white font-headline italic">Редкие издания библиотеки</span>
+</div>
+</div>
+<div class="relative overflow-hidden group">
+<img class="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-110" data-alt="Grainy film photograph of a school choir performing on a wooden stage under spotlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTRPX9Mx8WqSvrAKM6CALPRGsx2Ea-c67pBOu4yQKpRuGJh1W9vLVFtoFPCcqMPtJ8YboxVjn999FYT1sryMiwTk-ua9AJ4CQlkMVtrTgtlIPxL7CtxQ4XsDAwO4ba7HjgLu-Le3RgGX8g9NSmofBqshDu4yml3DCvRGOxLZ5Xsh4BdktzwGvm0IvkH9IKF8_vsl1uWjdb0M3a8glN5Yhe93iaS8Z3HRfg1JxrF_Zqb2wP0sZYlg0fKgAvN4RK7DEJzSh1IXGNn1c"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<span class="text-white font-headline italic">Юбилейный концерт, 1968 г.</span>
+</div>
+</div>
+</div>
+<div class="relative overflow-hidden group">
+<img class="w-full h-full object-cover transition-all duration-1000 group-hover:scale-110" data-alt="Modern wide angle shot of a clean university courtyard with students walking between buildings at dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_uHPz7D2e464OcE2JuwOnM6w-ucnP3LPANKJ_tdAHosEflx2YsUA6Vygs5hXhOhLVkN64gaeDdLApaWfI4E576ldTmaAEAi-L5hST_GQE1CwjQVqh4OxDdqAQtrsK2XCBrwUl-9jvGlSDH8sznq5Fdkp1ptOJxGWkDuwl6yaurVJAInK_Fp0B3x2gQTvcsO_Cp25tpKJeMtbWQnNaxc0fJDk028qaUyappSo62m-cZ6M8cAdmPw7z5l-9lhL8vEhQ_ZVqEm8n5TQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+<span class="text-white font-headline italic text-xl">Гимназия сегодня</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Alumni Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="flex justify-between items-end mb-16">
+<div class="max-w-xl">
+<span class="font-label text-secondary uppercase tracking-widest text-xs font-bold mb-4 block">Гордость гимназии</span>
+<h2 class="font-headline text-4xl text-primary leading-tight">Выдающиеся выпускники разных лет</h2>
+</div>
+<a class="font-label text-xs uppercase tracking-[0.2em] border-b border-secondary pb-1 text-secondary hover:text-primary transition-colors" href="#">Весь список</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="group">
+<div class="relative mb-8">
+<div class="absolute -inset-4 bg-surface-container-high scale-95 opacity-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500"></div>
+<img class="relative z-10 w-full aspect-[4/5] object-cover filter grayscale" data-alt="Professional studio portrait of a man in a dark suit with gray hair and glasses, academic style lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhRIjl-V6wWFpOx2Ok3c5jaQLis6yySl28gTbdX4EoDSyPmnP5erV2y7pQOXAfQYYf24ElidwnqNxkV6_Kzt_1WSRL-HBMdpZVa0AhMcyD7sQEHrASCNH66ptohVDzKRWnCN5GCWBHZF_scH1IFa0T1t7yPqS32gQ3XrtGi5RL-swLdEdMdN_DQJ4Qeap_nsSE-F_PyLcS4CNBTQ-OWG0B5pc-g7iAkZC0s_m3bwXLqRUebgmybvND1QKFuSUdUfRR_5dPwJG9ZqI"/>
+</div>
+<div class="relative z-10">
+<h4 class="font-headline text-xl text-primary mb-2">Алексей С. Волков</h4>
+<p class="font-label text-xs text-secondary uppercase tracking-widest mb-4">Выпуск 1974 года</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                Доктор физико-математических наук, лауреат государственной премии за вклад в теоретическую квантовую механику.
+                            </p>
+</div>
+</div>
+<div class="group">
+<div class="relative mb-8">
+<div class="absolute -inset-4 bg-surface-container-high scale-95 opacity-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500"></div>
+<img class="relative z-10 w-full aspect-[4/5] object-cover filter grayscale" data-alt="Elegant close up portrait of a woman looking thoughtfully away, soft artistic lighting with warm tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADY_r6PTWQdHFiG5xej4nifMqnyj8hJjTEoB_l_7kcucwBvKRkXGGkP5AE_UguWtj_57QMmLkchEVA6XgleKLx3NdjjVIBhzsqdpShL-Wk8_5cTRNChBMAV4Hu_jI7zTNsHLx7k2pQpAX0edPQtfXaSI5A5JbJyXWKlJHxlYfA9rr6LUMSSia_sDT4LMtV1T5QHzVx1YnyQzrviCThU-8HpepyqbM7px3mRD9tXIUdjax36CqjAODfHoilk-wRQ8yzQja2eAqqdKs"/>
+</div>
+<div class="relative z-10">
+<h4 class="font-headline text-xl text-primary mb-2">Елена М. Ростова</h4>
+<p class="font-label text-xs text-secondary uppercase tracking-widest mb-4">Выпуск 1992 года</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                Известный публицист и литературовед, автор серии монографий об истории русской словесности XIX века.
+                            </p>
+</div>
+</div>
+<div class="group">
+<div class="relative mb-8">
+<div class="absolute -inset-4 bg-surface-container-high scale-95 opacity-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500"></div>
+<img class="relative z-10 w-full aspect-[4/5] object-cover filter grayscale" data-alt="Modern professional headshot of a young man with a slight smile, clean grey background, sharp business focus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOHGhdcazrEdtETjMe7JmEZpQncQOEzv6vh6EZXP687stWFhw9YNJIgAiDJvJh9y_DkESdSmwo-J2CKnSaqDV5GeQ-UZu3RrmJKVS_8gbZC2ExwSAYSLbsxwsYKE1yfGeQ6uiwvjUuM8yPLXQmszV4xuQjJyoH2nAdmZOsbfeP0hqdJBtGHGffF3uybbcqNhwIJvi_e9-49dUs_2fer86BzBLFUui2kHfXaeZZqex0yRrqY7xIP-WACEx63g24QQ3UW4kJbHAkswo"/>
+</div>
+<div class="relative z-10">
+<h4 class="font-headline text-xl text-primary mb-2">Дмитрий И. Соколов</h4>
+<p class="font-label text-xs text-secondary uppercase tracking-widest mb-4">Выпуск 2005 года</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                Основатель международного технологического кластера, филантроп, поддерживающий образовательные гранты гимназии.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-primary/10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-12 py-16 w-full max-w-screen-2xl mx-auto">
+<div class="space-y-6">
+<div class="font-headline text-lg text-primary">The Living Archive</div>
+<p class="text-xs font-body text-on-surface-variant max-w-xs leading-relaxed uppercase tracking-widest">
+                    Сохраняя прошлое — создаем будущее. Гимназический музей является центром патриотического и культурного воспитания.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-label text-xs uppercase tracking-widest font-bold text-primary mb-2">Навигация</h5>
+<div class="grid grid-cols-2 gap-y-3 font-label text-xs uppercase tracking-[0.15em]">
+<a class="text-[#1c1c18]/60 hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Contact Us</a>
+<a class="text-[#1c1c18]/60 hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Site Map</a>
+<a class="text-[#1c1c18]/60 hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Privacy Policy</a>
+<a class="text-[#1c1c18]/60 hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Archival Access</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-label text-xs uppercase tracking-widest font-bold text-primary mb-2">Контакты</h5>
+<p class="font-body text-xs text-on-surface-variant/80 uppercase tracking-widest leading-loose">
+                    ул. Академическая, д. 15<br/>
+                    Москва, 119002<br/>
+                    museum@gymnasia.edu
+                </p>
+</div>
+</div>
+<div class="px-12 py-8 w-full max-w-screen-2xl mx-auto border-t border-primary/5 flex justify-between items-center">
+<div class="font-label text-[10px] uppercase tracking-[0.2em] text-[#1c1c18]/40">
+                © 2024 The Living Archive. All Rights Reserved. An Institutional Heritage Project.
+            </div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary text-lg">local_library</span>
+<span class="material-symbols-outlined text-primary text-lg">museum</span>
+</div>
+</div>
+</footer>
+</body></html>
